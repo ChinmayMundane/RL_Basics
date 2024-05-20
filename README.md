@@ -4,11 +4,21 @@ This repo includes
 - Pytorch notes and its implementations
 - Classic RL algorithms
 - notes I made going through the resources.
+- training and testing a RL agent in multiple environment in metadrive simulator(open source autonomous driving simulator)
 
 ## Execution
 
 
- You can run it normally on google collab or jupyter notebook.
+ You can run the test codes normally on google collab or jupyter notebook
+
+ - For RL training and scripts
+  - install [metadrive](https://metadrive-simulator.readthedocs.io/en/latest/install.html)
+  - move the "set_1 folder under metadrive/examples"
+  - cd under the metadrive and run
+  ```
+  python -m metadrive.examples.file_name
+  ```
+(Remember to comment out some part of codes to customise the settings)
 
 
 ## Resources 
